@@ -1,7 +1,7 @@
 # dog.rb
 class Dog
   attr_accessor :name, :breed
-  
+
   def name=(name)
     @name = name
   end
@@ -16,4 +16,5 @@ class Dog
 
   def breed
     @breed
+  end
 end
