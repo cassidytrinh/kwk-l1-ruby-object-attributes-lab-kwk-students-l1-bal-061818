@@ -1,19 +1,18 @@
 # person.rb
-class Person
-  attr_reader :name
+class person
+  attr_accessor :name, :job
 
-  def initialize
+  def name=(name)
+    @name = name
+  end
+
+  def name
     @name
   end
 
-  def talk
-    puts "Hello World!"
+  def job=(job)
+    @job = job
   end
 
-  def walk
-    puts "The Person is walking"
-  end
-end
-
-adele_goldberg = Person.new
-alan_kay = Person.new
+  def job
+    @job
