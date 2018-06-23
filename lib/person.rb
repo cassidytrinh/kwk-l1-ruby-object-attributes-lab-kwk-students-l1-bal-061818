@@ -17,3 +17,4 @@ class person
   def job
     @job
   end
+end
