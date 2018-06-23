@@ -1,5 +1,5 @@
 # person.rb
-class person
+class Person
   attr_accessor :name, :job
 
   def name=(name)
